@@ -42,7 +42,7 @@ function createProductCard({ _id, name, description, brand, price, imageUrl }) {
 
     const img = document.createElement("img");
     img.src = imageUrl;
-    img.classList.add("card-img-top");
+    img.classList.add("card-img-top", "photo");
     img.alt = name;
 
     const cardBody = document.createElement("div");

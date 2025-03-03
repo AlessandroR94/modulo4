@@ -50,3 +50,9 @@ body {
 .nav-link.cart-link {
     padding-left: 20px !important;
 }
+
+.photo {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
